@@ -1,0 +1,8 @@
+{
+  "name": "Jane Doe",
+  "title": "Software Engineer",
+  "email": "jane@example.com",
+  "skills": ["TypeScript", "Node.js"],
+  "experience": [],
+  "education": []
+}
