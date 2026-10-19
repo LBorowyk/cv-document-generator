@@ -1,0 +1,36 @@
+{
+  "name": "cv-document-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LBorowyk/cv-document-generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/LBorowyk/cv-document-generator/issues"
+  },
+  "homepage": "https://github.com/LBorowyk/cv-document-generator#readme",
+  "dependencies": {
+    "execa": "^10.2.0",
+    "fastify": "^5.12.7",
+    "nunjucks": "^3.2.4",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "@types/nunjucks": "^3.2.6",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
